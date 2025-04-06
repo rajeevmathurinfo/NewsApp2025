@@ -16,8 +16,4 @@ class SharedNewsViewModel @Inject constructor() : ViewModel() {
     fun selectNews(news: News) {
         _selectedNews.value = news
     }
-
-    fun clearSelectedNews() {
-        _selectedNews.value = null
-    }
 }
