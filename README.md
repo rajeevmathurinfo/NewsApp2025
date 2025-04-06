@@ -45,7 +45,6 @@ This is a sample Android News App built using **Jetpack Compose**, following **M
 
 - **Add full UI tests using androidx.compose.ui.test**
 - **Improve error handling and add retry actions**
-- **Move business logic into dedicated UseCase classes**
 - **Replace Log.d with Timber**
 - **Hide API key using secure storage or environment configs**
 - **Add KDoc comments and more documentation**
