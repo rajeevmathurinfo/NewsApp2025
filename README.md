@@ -32,4 +32,23 @@ This is a sample Android News App built using **Jetpack Compose**, following **M
 - **MockK** for unit tests
 
 
+## Best Practices Followed
+
+Clean separation of concerns with data, domain, and presentation layers
+State management using Kotlin Coroutines and StateFlow
+Shared ViewModel between composables
+Encoded navigation arguments for safe data transfer
+Proper test coverage for data layer and repository
+Use of sealed classes, type safety, and idiomatic Kotlin
+
+## Improvement
+
+Add full UI tests using androidx.compose.ui.test
+Improve error handling and add retry actions
+Move business logic into dedicated UseCase classes
+Replace Log.d with Timber
+Hide API key using secure storage or environment configs
+Add KDoc comments and more documentation
+
+
 
