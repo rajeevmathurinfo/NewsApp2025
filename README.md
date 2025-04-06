@@ -41,7 +41,7 @@ This is a sample Android News App built using **Jetpack Compose**, following **M
 - **Proper test coverage for data layer and repository**
 - **Use of sealed classes, type safety, and idiomatic Kotlin**
 
-## Improvement
+## Improvement needed
 
 - **Add full UI tests using androidx.compose.ui.test**
 - **Improve error handling and add retry actions**
