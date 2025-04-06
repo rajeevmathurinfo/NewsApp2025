@@ -14,7 +14,7 @@ This is a sample Android News App built using **Jetpack Compose**, following **M
 - Modern UI using **Jetpack Compose**
 - **Hilt** for Dependency Injection
 - **Clean Architecture** with Domain layer
-- **Unit tested** Repository
+- **Unit tested** Repository, usecase and viewModel
 
 ---
 
