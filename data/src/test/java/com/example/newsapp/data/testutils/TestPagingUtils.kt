@@ -2,7 +2,6 @@ package com.example.newsapp.testutils
 
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.ListUpdateCallback
-import com.example.newsapp.data.local.entity.NewsEntity
 import com.example.newsapp.domain.model.News
 
 object TestPagingUtils {
