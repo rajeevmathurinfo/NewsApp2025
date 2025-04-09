@@ -12,7 +12,7 @@ import javax.inject.Inject
 
 @HiltViewModel
 class NewsViewModel @Inject constructor(
-    private val newsUseCase: NewsUseCase
+    newsUseCase: NewsUseCase
 ) : ViewModel() {
 
     val news: Flow<PagingData<News>> = newsUseCase().cachedIn(viewModelScope)

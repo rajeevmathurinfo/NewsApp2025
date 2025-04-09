@@ -1,6 +1,5 @@
 package com.example.newsapp.presentation.ui
 
-import android.util.Log
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Spacer
@@ -83,7 +82,7 @@ fun NewsDetailsScreen(
 
                     Spacer(modifier = Modifier.height(12.dp))
                     Text(
-                        text = "URL: ${news.url ?: "N/A"}",
+                        text = "URL: ${news.url}",
                         style = MaterialTheme.typography.bodySmall,
                         color = MaterialTheme.colorScheme.primary
                     )

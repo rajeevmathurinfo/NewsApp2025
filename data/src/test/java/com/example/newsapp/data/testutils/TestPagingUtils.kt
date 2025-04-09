@@ -35,13 +35,4 @@ object TestPagingUtils {
         override fun onMoved(fromPosition: Int, toPosition: Int) {}
         override fun onChanged(position: Int, count: Int, payload: Any?) {}
     }
-
-    fun createDiffer(dispatcher: CoroutineDispatcher): AsyncPagingDataDiffer<NewsEntity> {
-        return AsyncPagingDataDiffer(
-            diffCallback = diffCallbackEntity,
-            updateCallback = noopListCallback,
-            mainDispatcher = dispatcher,
-            workerDispatcher = dispatcher
-        )
-    }
 }
