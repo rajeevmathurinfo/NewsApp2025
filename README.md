@@ -1,6 +1,6 @@
 # News App - Jetpack Compose + Clean Architecture
 
-This is a sample Android News App built using **Jetpack Compose**, following **MVVM** and **Clean Architecture** principles. It fetches top headlines using a remote API and supports local caching, pagination, dependency injection, and unit testing.
+This is a sample Android News App built using Jetpack Compose and following modern **Clean Architecture** principles. It showcases best practices in modular Android app development using **multiple modules** for better separation of concerns, scalability, and testability.
 
 ---
 
@@ -19,29 +19,29 @@ This is a sample Android News App built using **Jetpack Compose**, following **M
 ---
 
 ## Tech Stack
-
-- **Jetpack Compose**
-- **MVVM + Clean Architecture**
-- **Paging 3**
-- **Room**
-- **Retrofit**
-- **Hilt**
-- **Navigation Compose**
-- **Coroutines & Flow**
-- **Coil** for image loading
-- **MockK** for unit tests
+- **Jetpack Compose** - Modern UI toolkit
+- **MVVM + Clean Architecture** - Scalable app architecture
+- **Paging 3** - Efficient pagination and data loading
+- **Room** - Local database with caching support
+- **Retrofit** - Type-safe network client
+- **Hilt** - Dependency injection
+- **Navigation Compose** - Type-safe navigation
+- **Coroutines & Flow** - Async and reactive programming
+- **Coil** - Image loading
+- **MockK** - Testing library for mocks
+- **Robolectric** - JVM-based unit testing
 
 
 ## Best Practices Followed
 
-- **Clean separation of concerns with data, domain, and presentation layers**
-- **State management using Kotlin Coroutines and StateFlow**
-- **Shared ViewModel between composables**
-- **Encoded navigation arguments for safe data transfer**
-- **Proper test coverage for data layer and repository**
-- **Use of sealed classes, type safety, and idiomatic Kotlin**
+-  **Multi-module Clean Architecture** for separation of concerns
+-  **StateFlow** for reactive state management
+-  Shared **ViewModel** across composables
+-  Safe argument passing using **encoded navigation arguments**
+-  Unit testing for `Repository`, `UseCase`, and `ViewModel`
+-  Use of **sealed classes**, **type safety**, and idiomatic **Kotlin**
 
-## Improvement needed
+## Improvement planned
 
 - **Add full UI tests using androidx.compose.ui.test**
 - **Improve error handling and add retry actions**
