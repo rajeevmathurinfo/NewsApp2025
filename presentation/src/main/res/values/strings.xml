@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NewsApp</string>
+    <string name="loading_news">Loading news...</string>
+    <string name="loading_more">Loading more...</string>
+    <string name="error_loading_news">Error loading news.</string>
+    <string name="error_loading_more">Error loading more.</string>
+    <string name="no_title">No Title</string>
+    <string name="published">Published: %1$s</string>
+    <string name="news_details">News Details</string>
+    <string name="no_article_selected">No article selected</string>
+    <string name="no_description_available">No description available</string>
+    <string name="published_at">Published At: %1$s</string>
+</resources>

@@ -42,6 +42,10 @@ android {
 }
 
 dependencies {
+    implementation(project(":data"))
+    implementation(project(":domain"))
+    implementation(project(":presentation"))
+    implementation(project(":core"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
@@ -64,18 +68,8 @@ dependencies {
     implementation(libs.coil.compose)
     implementation(libs.paging.runtime)
     implementation(libs.paging.compose)
-    implementation(libs.retrofit)
-    implementation(libs.converter.gson)
-    implementation(libs.room.runtime)
-    kapt(libs.room.compiler)
-    implementation(libs.room.ktx)
-    implementation(libs.room.paging)
     implementation(libs.hilt.android)
     kapt(libs.hilt.compiler)
-    testImplementation(libs.coroutines.test)
-    testImplementation(libs.turbine)
-    testImplementation(libs.truth)
-    testImplementation(libs.mockk)
 
 
 }
