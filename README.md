@@ -31,6 +31,7 @@ This is a sample Android News App built using Jetpack Compose and following mode
 - **MockK** - Testing library for mocks
 - **Robolectric** - JVM-based unit testing
 
+---
 
 ## Best Practices Followed
 
@@ -41,6 +42,8 @@ This is a sample Android News App built using Jetpack Compose and following mode
 -  Unit testing for `Repository`, `UseCase`, and `ViewModel`
 -  Use of **sealed classes**, **type safety**, and idiomatic **Kotlin**
 
+  ---
+
 ## Improvement planned
 
 - **Add full UI tests using androidx.compose.ui.test**
@@ -48,6 +51,16 @@ This is a sample Android News App built using Jetpack Compose and following mode
 - **Replace Log.d with Timber**
 - **Hide API key using secure storage or environment configs**
 - **Add KDoc comments and more documentation**
+
+  ---
+
+  ## App Screenshots
+![Screenshot_1744256987](https://github.com/user-attachments/assets/ee2a14c2-7e60-43d1-8c1b-6b36b8235324) ![Screenshot_1744256996](https://github.com/user-attachments/assets/9f5339eb-2106-43d9-829a-b18dca57c137)
+
+
+
+
+- 
 
 
 
