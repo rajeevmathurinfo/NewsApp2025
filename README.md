@@ -55,8 +55,12 @@ This is a sample Android News App built using Jetpack Compose and following mode
   ---
 
   ## App Screenshots
+<p align="center">
+  <img src="screenshots/list.png" alt="Home Screen" width="300"/>
+  &nbsp;&nbsp;
+  <img src="screenshots/details.png" alt="Details Screen" width="300"/>
+</p>
 
-<p align="center"> <img src="![Screenshot_1744256987](https://github.com/user-attachments/assets/ee2a14c2-7e60-43d1-8c1b-6b36b8235324)" alt="Home Screen" width="300"/> &nbsp;&nbsp; <img src=" ![Screenshot_1744256996](https://github.com/user-attachments/assets/9f5339eb-2106-43d9-829a-b18dca57c137)" alt="Details Screen" width="300"/> </p>
 
 
 
